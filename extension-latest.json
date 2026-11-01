@@ -1,0 +1,8 @@
+{
+  "version": "0.3.0",
+  "released_at": "2026-11-01 17:26",
+  "notes": "自动更新 + 版本号显示修复",
+  "zip": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/ext-v0.3.0/EAS录单中枢采集器-0.3.0.zip",
+  "crx": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/ext-v0.3.0/EAS-Hub-Collector-0.3.0.crx",
+  "page": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/tag/ext-v0.3.0"
+}

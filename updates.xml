@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gupdate xmlns='http://www.google.com/update2/1' protocol='2.0'>
+  <app appid='goobopjnlmikflfepaffjfcodjhomeik'>
+    <updatecheck codebase='https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/ext-v0.3.0/EAS-Hub-Collector-0.3.0.crx' version='0.3.0' />
+  </app>
+</gupdate>
