@@ -1,17 +1,11 @@
 {
   "version": "2.0.4",
-  "released_at": "2026-11-01 17:32",
+  "released_at": "2026-11-01 21:58",
   "notes": "在线更新打通：应用更新线路默认指向发布仓库，开箱即可检查更新；浏览器插件 0.3.0 支持自动更新（crx）与更新提示（解压安装），修复版本号显示恒为 0.2.1 的问题。",
   "macos": {
     "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.4/EAS-EntryHub-2.0.4-macos.zip",
     "name": "EAS-EntryHub-2.0.4-macos.zip",
-    "sha256": "2a6139c4af060e56a4623658aa3ec140502aed484215fb0b48f92bea0e348d73",
-    "size": 18952431
-  },
-  "windows": {
-    "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.4/EAS-EntryHub-2.0.4-windows.zip",
-    "name": "EAS-EntryHub-2.0.4-windows.zip",
-    "sha256": "351ba5b567f826f2c0744a55971955a1e00aa17530f49ec69e41ae48a20554a8",
-    "size": 14103262
+    "sha256": "fe320424b06a25d6d8a24fb5173432771e1f0442f04d399eac33932ca78d6d07",
+    "size": 18866341
   }
 }
