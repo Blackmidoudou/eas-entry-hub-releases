@@ -3,7 +3,7 @@
   "versions": [
     {
       "version": "2.0.4",
-      "released_at": "2026-11-01 21:58",
+      "released_at": "2026-11-01 22:06",
       "notes": "在线更新打通：应用更新线路默认指向发布仓库，开箱即可检查更新；浏览器插件 0.3.0 支持自动更新（crx）与更新提示（解压安装），修复版本号显示恒为 0.2.1 的问题。",
       "macos": {
         "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.4/EAS-EntryHub-2.0.4-macos.zip",
@@ -19,5 +19,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-01 21:58"
+  "updated_at": "2026-11-01 22:06"
 }
