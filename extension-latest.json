@@ -1,8 +1,8 @@
 {
-  "version": "0.3.0",
-  "released_at": "2026-11-01 21:59",
-  "notes": "自动更新 + 版本号显示修复",
-  "zip": "https://gitee.com/black-mi/eas-entry-hub-releases/releases/download/ext-v0.3.0/EAS-Hub-Collector-0.3.0.zip",
-  "crx": "https://gitee.com/black-mi/eas-entry-hub-releases/releases/download/ext-v0.3.0/EAS-Hub-Collector-0.3.0.crx",
-  "page": "https://gitee.com/black-mi/eas-entry-hub-releases/releases/tag/ext-v0.3.0"
+  "version": "0.4.0",
+  "released_at": "2026-11-15 11:01",
+  "notes": "更新线路支持 Gitee，国内网络免代理也能检查并下载更新",
+  "zip": "https://gitee.com/black-mi/eas-entry-hub-releases/releases/download/ext-v0.4.0/EAS-Hub-Collector-0.4.0.zip",
+  "crx": "https://gitee.com/black-mi/eas-entry-hub-releases/releases/download/ext-v0.4.0/EAS-Hub-Collector-0.4.0.crx",
+  "page": "https://gitee.com/black-mi/eas-entry-hub-releases/releases/tag/ext-v0.4.0"
 }
