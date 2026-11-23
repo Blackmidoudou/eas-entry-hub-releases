@@ -2,22 +2,39 @@
   "app": "EAS 录单中枢",
   "versions": [
     {
+      "version": "2.0.5",
+      "released_at": "2026-11-23 22:21",
+      "notes": "- 队列卡片新增「重试」：失败 / 已取消的任务可重新入队执行（EAS 未登录、弹窗没关、掉线等临时故障修好后点一下重跑）。重试时把因开单失败而置「失败」的委托书回退为「待开单」，否则调度器不会重新执行；记录重试次数，已完成任务不给重试入口（防重复录单）\n- 队列卡片新增「移除」：失败 / 已取消 / 已完成的卡片可从队列清掉，连带清去重记录与委托书状态表（只清中枢里的记录，EAS 单据一概不动）\n- 探针 cmdrunner 2.0.2：新增 act msearch，在 EAS 主框架「功能快捷码」搜索框写代码 + 回车（实证输 WXGDXZ 直接打开「维修工单·新增」），为开单模块自动打开新增页铺路",
+      "macos": {
+        "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.5/EAS-EntryHub-2.0.5-macos.zip",
+        "name": "EAS-EntryHub-2.0.5-macos.zip",
+        "sha256": "904f4be490e90886bc7b867275cf22268aa32b490e579d664e4fc94f1ec35f9b",
+        "size": 18874874
+      },
+      "windows": {
+        "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.5/EAS-EntryHub-2.0.5-windows.zip",
+        "name": "EAS-EntryHub-2.0.5-windows.zip",
+        "sha256": "1aa86eaaab2364f6e0743d8f54c3fae0e5fec1209beffeedbf4eef0d34af45a7",
+        "size": 14108130
+      }
+    },
+    {
       "version": "2.0.4",
       "released_at": "2026-11-01 22:06",
       "notes": "在线更新打通：应用更新线路默认指向发布仓库，开箱即可检查更新；浏览器插件 0.3.0 支持自动更新（crx）与更新提示（解压安装），修复版本号显示恒为 0.2.1 的问题。",
       "macos": {
-        "file": "https://gitee.com/black-mi/eas-entry-hub-releases/releases/download/v2.0.4/EAS-EntryHub-2.0.4-macos.zip",
+        "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.4/EAS-EntryHub-2.0.4-macos.zip",
         "name": "EAS-EntryHub-2.0.4-macos.zip",
         "sha256": "fe320424b06a25d6d8a24fb5173432771e1f0442f04d399eac33932ca78d6d07",
         "size": 18866341
       },
       "windows": {
-        "file": "https://gitee.com/black-mi/eas-entry-hub-releases/releases/download/v2.0.4/EAS-EntryHub-2.0.4-windows.zip",
+        "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.4/EAS-EntryHub-2.0.4-windows.zip",
         "name": "EAS-EntryHub-2.0.4-windows.zip",
         "sha256": "351ba5b567f826f2c0744a55971955a1e00aa17530f49ec69e41ae48a20554a8",
         "size": 14103262
       }
     }
   ],
-  "updated_at": "2026-11-01 22:06"
+  "updated_at": "2026-11-23 22:21"
 }
