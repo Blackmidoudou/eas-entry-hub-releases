@@ -1,17 +1,17 @@
 {
-  "version": "2.0.5",
-  "released_at": "2026-11-23 22:21",
-  "notes": "- 队列卡片新增「重试」：失败 / 已取消的任务可重新入队执行（EAS 未登录、弹窗没关、掉线等临时故障修好后点一下重跑）。重试时把因开单失败而置「失败」的委托书回退为「待开单」，否则调度器不会重新执行；记录重试次数，已完成任务不给重试入口（防重复录单）\n- 队列卡片新增「移除」：失败 / 已取消 / 已完成的卡片可从队列清掉，连带清去重记录与委托书状态表（只清中枢里的记录，EAS 单据一概不动）\n- 探针 cmdrunner 2.0.2：新增 act msearch，在 EAS 主框架「功能快捷码」搜索框写代码 + 回车（实证输 WXGDXZ 直接打开「维修工单·新增」），为开单模块自动打开新增页铺路",
+  "version": "2.0.6",
+  "released_at": "2026-11-24 09:53",
+  "notes": "- 修复「更新与关于」没有更新按钮、更新模块失效：2.0 界面由收单服务通过 HTTP 托管（并支持多机浏览器访问），但更新接口原来只认 pywebview 窗口注入的 js_api，页面加载时拿不到就把整块版本列表和「安装此版本」按钮跳过，且缓存导致之后也不补渲染\n- 更新接口改为桌面 / HTTP 双通道：应用窗口内仍优先走原生 js_api；浏览器或多机访问时自动走 `/api/update/*`（后端转发到同一个更新控制器）。现在版本列表、线路切换、线路测速、检查新版本、安装/回滚都能在浏览器里正常操作\n- 独立服务模式（`python3 hub.py` 调试）没有更新控制器时给出明确提示，不再静默无按钮\n- 新增后端 11 项、前端 10 项回归断言；原有 9 个测试套件全部通过",
   "macos": {
-    "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.5/EAS-EntryHub-2.0.5-macos.zip",
-    "name": "EAS-EntryHub-2.0.5-macos.zip",
-    "sha256": "904f4be490e90886bc7b867275cf22268aa32b490e579d664e4fc94f1ec35f9b",
-    "size": 18874874
+    "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.6/EAS-EntryHub-2.0.6-macos.zip",
+    "name": "EAS-EntryHub-2.0.6-macos.zip",
+    "sha256": "0fb6fae0e01c7a3231ce03661223c2f168db328233edf32eaf22da12a002db63",
+    "size": 18875699
   },
   "windows": {
-    "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.5/EAS-EntryHub-2.0.5-windows.zip",
-    "name": "EAS-EntryHub-2.0.5-windows.zip",
-    "sha256": "1aa86eaaab2364f6e0743d8f54c3fae0e5fec1209beffeedbf4eef0d34af45a7",
-    "size": 14108130
+    "file": "https://github.com/Blackmidoudou/eas-entry-hub-releases/releases/download/v2.0.6/EAS-EntryHub-2.0.6-windows.zip",
+    "name": "EAS-EntryHub-2.0.6-windows.zip",
+    "sha256": "89a7ef8929295219cfd52b31b1434847ec7c778048ee5305ae972e422d3056e6",
+    "size": 14110775
   }
 }
